@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:intl_phone_field/countries.dart';
-import 'package:intl_phone_field/helpers.dart';
+import 'package:intl_phone_field_flutter/countries.dart';
+import 'package:intl_phone_field_flutter/helpers.dart';
 
 class PickerDialogStyle {
   final Color? backgroundColor;
@@ -121,7 +121,7 @@ class _CountryPickerDialogState extends State<CountryPickerDialog> {
                     ListTile(
                       leading: Image.asset(
                         'assets/flags/${_filteredCountries[index].code.toLowerCase()}.png',
-                        package: 'intl_phone_field',
+                        package: 'intl_phone_field_flutter',
                         width: 32,
                       ),
                       contentPadding: widget.style?.listTilePadding,
